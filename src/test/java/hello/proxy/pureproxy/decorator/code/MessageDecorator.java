@@ -19,7 +19,7 @@ public class MessageDecorator implements Component {
         String decoResult = "*****" + result + "*****";
         log.info("MessageDecorator 꾸미기 적용 전={}, 적용 후={}", result, decoResult);
 
-        return "decoResult";
+        return decoResult;
     }
 
 }
